@@ -381,6 +381,8 @@ footer ul li a.active {
   font-size: 11px;
 }
 ```
+#seletores avançados
+```html
 ::-moz-selection {
   color: white;
   text-shadow: none;
@@ -403,6 +405,7 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 
+```
 #media
 ```html
 
