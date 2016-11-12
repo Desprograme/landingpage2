@@ -1,4 +1,4 @@
-
+```html
 /*configuração de fonte */
 .heading-font {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
@@ -494,3 +494,4 @@ body {
     font-size: 50px;
   }
 }
+```
