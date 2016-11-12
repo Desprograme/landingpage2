@@ -1,9 +1,10 @@
 # Landing-page
 
 Estrutura do top
+```html
 <!DOCTYPE html>
 <html lang="pt-br">
-
+```
 Estrutura do head
 
 ```html
