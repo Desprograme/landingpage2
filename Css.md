@@ -1,5 +1,6 @@
+
+#configuração de fonte 
 ```html
-/*configuração de fonte */
 .heading-font {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
@@ -29,19 +30,17 @@ h6 {
   font-weight: 200;
   letter-spacing: 1px;
 }
-/*configuração de fonte */
-
-/*Espaçamento */
-
+```
+#Espaçamento
+```html
 html,
 body {
   height: 100%;
   width: 100%;
 }
-
-/*efeito no link */
-
-
+```
+#Efeito no link 
+```html
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -53,7 +52,9 @@ a:focus {
   color: #fcbd20;
 }
 
-
+```
+#hr
+```html
 hr {
   max-width: 100px;
   margin: 25px auto 0;
@@ -63,14 +64,17 @@ hr {
 hr.light {
   border-color: white;
 }
-
+```
+#p
+```html
 p {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
-
-
+```
+#navbar-default
+```html
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
@@ -119,8 +123,9 @@ p {
 .navbar-default .nav > li.active > a:focus:hover {
   background-color: transparent;
 }
-
-
+```
+#header 
+```html
 
 header {
   position: relative;
@@ -164,8 +169,9 @@ header .device-container {
 header .device-container .screen img {
   border-radius: 3px;
 }
-
-
+```
+#section
+```html
 
 section {
   padding: 100px 0;
@@ -173,8 +179,11 @@ section {
 section h2 {
   font-size: 50px;
 }
+```
 
-/*section.download */
+#section.download 
+```html
+
 section.download {
   padding: 150px 0;
   position: relative;
@@ -193,8 +202,9 @@ section.download .badges .badge-link:last-child {
 section.download .badges .badge-link img {
   height: 60px;
 }
-/*fim section.download */
-
+```
+#section.features
+```html
 /*section.features */
 section.features .section-heading {
   margin-bottom: 100px;
@@ -228,8 +238,9 @@ section.features .feature-item i {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
-
+```
+#section.cta
+```html
 section.cta {
   position: relative;
   -webkit-background-size: cover;
@@ -260,8 +271,9 @@ section.cta .overlay {
   top: 0;
   left: 0;
 }
-
-
+```
+#section.contact
+```html
 
 section.contact {
   text-align: center;
@@ -303,8 +315,9 @@ section.contact ul.list-social li.social-google-plus a {
 section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
-
-
+```
+#footer
+```html
 
 footer {
   background-color: #222222;
@@ -329,8 +342,9 @@ footer ul li a:active,
 footer ul li a.active {
   text-decoration: none;
 }
-
-/*colocar a cor fundo amarelho*/
+```
+#bg-primary
+```html
 .bg-primary {
   background: #fdcc52;
   background: -webkit-linear-gradient(#fdcc52, #fdc539);
@@ -366,6 +380,7 @@ footer ul li a.active {
   padding: 15px 45px;
   font-size: 11px;
 }
+```
 ::-moz-selection {
   color: white;
   text-shadow: none;
@@ -388,7 +403,8 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 
-/*media quary*/
+#media
+```html
 
 @media (min-width: 768px) {
   header {
